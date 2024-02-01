@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/frame_layout_bg">
+
+
+            <ImageView
+                android:id="@+id/plantDisease"
+                android:layout_width="129dp"
+                android:layout_height="156dp"
+                android:layout_marginTop="27dp"
+                android:background="@drawable/plant_tropical"
+                android:contentDescription="@string/plantContentDescription"
+                android:clickable="true"
+                android:focusable="true">
+
+            </ImageView>
+
+
+            <TextView
+                android:id="@+id/plant_Disease"
+                android:layout_width="213dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_marginStart="57dp"
+                android:gravity="center_horizontal"
+                android:text="@string/plant_disease_detection"
+                android:textColor="#F3F3F3"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/frame_layout_bg">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="195dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/pest"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="27dp"
+                    android:layout_marginBottom="59dp"
+                    android:background="@drawable/insect"
+                    android:clickable="true"
+                    android:contentDescription="@string/pest_bg"
+                    android:focusable="true"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ImageContrastCheck" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/pest_Detection"
+                android:layout_width="213dp"
+                android:layout_height="69dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="57dp"
+                android:text="@string/pest_detection"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
