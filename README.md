@@ -3,4 +3,4 @@
 ### 3.1 Android Application Development Lab Final Project
 
 
-### ML Model Credit : Anand Singh & Saurabh Kumar
+### ML Model Credit : Anand Singh [https://github.com/Anand-Singh-techie] & Saurabh Kumar [https://github.com/indskgit]
